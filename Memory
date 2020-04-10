@@ -1,0 +1,43 @@
+package com.company;
+
+public class Memory {
+    private String operation;
+    private double num1;
+    private double num2;
+
+    public Memory( String oper, double n1, double n2)
+    {
+        operation = oper;
+        num1 = n1;
+        num2 = n2;
+    }
+    public Memory (String oper, double n1)
+    {
+        operation = oper;
+        num1 = n1;
+    }
+
+    public void setOperation(String operation) {
+        this.operation = operation;
+    }
+
+    public void setNum1(double num1) {
+        this.num1 = num1;
+    }
+
+    public void setNum2(double num2) {
+        this.num2 = num2;
+    }
+
+    public String getOperation() {
+        return operation;
+    }
+
+    public double getNum1() {
+        return num1;
+    }
+
+    public double getNum2() {
+        return num2;
+    }
+}
